@@ -1,0 +1,61 @@
+{
+"name": "welcomepng",
+"temp": "a",
+"event-type": "6",
+"_id": "dIelq",
+"actions": [
+{
+"member": "2",
+"varName": "a",
+"storage": "1",
+"varName2": "avatar",
+"name": "Create Image from Avatar"
+},
+{
+"url": "https://cdn.discordapp.com/attachments/601178247597916190/609872114799083551/HG_kardes.png",
+"storage": "1",
+"varName": "image",
+"name": "Create Image"
+},
+{
+"storage": "1",
+"varName": "image",
+"width": "1000",
+"height": "500",
+"name": "Resize Image"
+},
+{
+"storage": "1",
+"varName": "avatar",
+"width": "215",
+"height": "215",
+"name": "Resize Image"
+},
+{
+"storage": "1",
+"varName": "image",
+"storage2": "1",
+"varName2": "avatar",
+"x": "410",
+"y": "80",
+"mask": "0",
+"name": "Draw Image on Image"
+},
+{
+"info": "0",
+"find": "",
+"storage": "1",
+"varName": "chid",
+"name": "Find Channel"
+},
+{
+"storage": "1",
+"varName": "image",
+"channel": "5",
+"varName2": "chid",
+"message": "",
+"name": "Send Image"
+}
+],
+"restriction": "0"
+}
